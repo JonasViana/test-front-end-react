@@ -1,10 +1,38 @@
+.borda__ingredientes{
+    border: 1px solid #4E4E4E;
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .adicionar__ingrediente{
     width: 23rem;
     height: 3.4rem;
     background-color: rgba(253, 215, 14, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0;
+    padding-left: 1rem;
+}
+.adicao__ingrediente button{
+    border:none;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 20px;
 }
 
-.adicionar{
+.adicao__ingrediente button:hover{
+    background-color: #E49700;
+    border-radius: 4px;
+    width: 24px;
+    height: 20px;
+}
+
+.adicionar__ingredientes{
     font-weight: 500;
     font-size: 14px;
     color: #4E4E4E;
@@ -23,6 +51,20 @@
     height: 5.5rem;
     justify-content: space-between;
     padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.valor__ingrediente{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.linha__horizontal{
+   border-bottom: 1px solid #E8A634;
+   display: flex;
+   width: 24rem;
+   margin-left: 1rem;
 }
 
 .ingrediente__name{
@@ -44,9 +86,80 @@
     border: 1px solid #F09035;
     border-radius: 5px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .adicao__ingrediente p {
     margin: 0;
+}
+
+.talher{
+    display: flex;
+    align-items: center;
+    width: 23rem;
+    height: 3.1rem;
+    background-color: rgba(253, 215, 14, 0.2);
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+
+.talher p{
+    font-weight: 500;
+    size: 14px;
+    color: #4E4E4E;
+}
+
+.diminuir__talher{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.diminuir__talher:hover{
+    background-color: #E49700;
+}
+
+
+.container__talher{
+    display: flex;
+    margin-top: 1rem;
+}
+
+.adicionar{
+    width: 13.6rem;
+    height: 2.5rem;
+    background-color: #F09035;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 25px;
+}
+
+.adicionar:hover{
+    background-color: #ff7b00;
+}
+.adicao__talher{
+    display: flex;
+    width: 8.7rem;
+    height: 2.5rem;
+    align-items: center;
+    border: 1px solid #F09035;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.sinalMenos{
+    width: 14px;
+    height: 2px;
+}
+
+.sinalMais{
+    width: 14px;
+    height: 14px;
+    align-items: center;
 }

@@ -1,5 +1,5 @@
 p, img{
-    margin: 10px;
+
     font-weight: 700;
 }
 
@@ -10,9 +10,17 @@ p, img{
     color: #656363;
 }
 
-.entrega p{
-    color: #656363;
+.entrega__red {
+    color: #D80000;
+    font-weight: 400;
+    font-size: 12px;
 }
+.entrega__grey{
+    color: #656363;
+    font-weight: 700;
+    font-size: 12px;
+}
+
 
 .select__entrega{
     display: flex;
@@ -21,7 +29,7 @@ p, img{
     background-color: white;
     border-radius: 4px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 10rem;
 }
 

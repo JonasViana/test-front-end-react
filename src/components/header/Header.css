@@ -34,6 +34,10 @@ input{
     margin-left: 0;
 }
 
+input:focus{
+    border-color: #ED3237;
+}
+
 input:active, input:focus{
     border-color: red;
 }
