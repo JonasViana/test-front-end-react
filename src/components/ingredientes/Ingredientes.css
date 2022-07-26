@@ -1,0 +1,52 @@
+.adicionar__ingrediente{
+    width: 23rem;
+    height: 3.4rem;
+    background-color: rgba(253, 215, 14, 0.2);
+}
+
+.adicionar{
+    font-weight: 500;
+    font-size: 14px;
+    color: #4E4E4E;
+}
+
+.maxIngredientes{
+    font-weight: 400;
+    font-size: 12px;
+    color: #E49700;
+}
+
+.ingrediente{
+    width: 23rem;
+    display: flex ;
+    align-items: center;
+    height: 5.5rem;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+.ingrediente__name{
+    font-weight: 500;
+    font-size: 14px;
+    color: #4E4E4E;
+}
+
+.ingrediente_value{
+    font-weight: 500;
+    font-size: 14px;
+    color: #F09035;
+}
+
+.adicao__ingrediente {
+    display: flex;
+    width: 5.5rem;
+    height: 2rem;
+    border: 1px solid #F09035;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.adicao__ingrediente p {
+    margin: 0;
+}

@@ -1,0 +1,32 @@
+p, img{
+    margin: 10px;
+    font-weight: 700;
+}
+
+.entrega{
+    display: flex;
+    flex-direction: column;
+    line-height: 0;
+    color: #656363;
+}
+
+.entrega p{
+    color: #656363;
+}
+
+.select__entrega{
+    display: flex;
+    width: 14rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
+
+.seta{
+    margin-left: 6.5rem;
+    width: 12px;
+    height: 12px;
+}

@@ -1,0 +1,58 @@
+p{
+    color:#ED3237
+}
+
+.header{
+    display: flex;
+    height: 12vh;
+    background-color: #F4F4F4;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'roboto';
+}
+
+.logo1{
+    width: 5.1rem;
+    height: 3rem;
+    margin-right: 0;
+}
+
+.logo2{
+    width: 9.3rem;
+    height: 2.6rem;
+    margin-left: 0;
+}
+
+input{
+    width: 22rem;
+    height: 3rem;
+    background-color: white;
+    border-radius: 4px;
+    margin-left: 8rem;
+    display: flex;
+    padding-left: 1rem;
+    margin-left: 0;
+}
+
+input:active, input:focus{
+    border-color: red;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+}
+
+.user p{
+    margin: 0;
+}
+
+.carrinho{
+    display: flex;
+    align-items: center;
+
+}
+
+.carrinho p{
+    margin: 0;
+}
