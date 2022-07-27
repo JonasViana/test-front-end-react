@@ -1,29 +1,29 @@
 .food{
-    width: 37rem;
-    height: 41rem;
     display: flex;
+    height: 41rem;
     flex-direction: column;
     font-family: 'roboto';
     margin-top: 1rem;
+    width: 37rem;
 }
 
 .food p {
+    color: #4E4E4E;
     font-weight: 400;
     font-size: 20px;
-    color: #4E4E4E;
     margin: 0;
 }
 
 .titulo{
+    color: #4E4E4E;
     font-weight: 500;
     font-size: 28px;
-    color: #4E4E4E;
    
 }
 
 .food img {
-    width: 37rem;
     height: 24rem;
+    width: 37rem;
 }
 
 .valores{
@@ -31,15 +31,32 @@
 }
 
 .valor__desconto{
+    color: #DC6E05;
     font-weight: 400;
     font-size: 32px;
-    color: #DC6E05;
 }
 
 .valor{
+    color: #4E4E4E;
     font-weight: 400;
     font-size: 32px;
-    color: #4E4E4E;
     margin-left: 1rem;
     text-decoration: line-through
 }
+
+@media (max-width: 375px){
+    .food{
+        height: 32rem;
+        display: flex;
+        flex-direction: column;
+        font-family: 'roboto';
+        margin-top: 1rem;
+        width: 16rem;
+    }
+
+    .food img {
+        height: 15rem;
+        width: 15rem;
+    }
+}
+

@@ -1,57 +1,57 @@
 .borda__ingredientes{
+    align-items: center;
     border: 1px solid #4E4E4E;
     border-radius: 10px;
-    padding: 2rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    padding: 2rem;
 }
 .adicionar__ingrediente{
-    width: 23rem;
-    height: 3.4rem;
     background-color: rgba(253, 215, 14, 0.2);
     display: flex;
+    height: 3.4rem;
     flex-direction: column;
     justify-content: center;
     line-height: 0;
     padding-left: 1rem;
+    width: 23rem;
 }
 .adicao__ingrediente button{
+    align-items: center;
     border:none;
     background-color: white;
     display: flex;
-    align-items: center;
-    width: 24px;
     height: 20px;
+    width: 24px;
 }
 
 .adicao__ingrediente button:hover{
     background-color: #E49700;
     border-radius: 4px;
-    width: 24px;
     height: 20px;
+    width: 24px;
 }
 
 .adicionar__ingredientes{
-    font-weight: 500;
-    font-size: 14px;
     color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .maxIngredientes{
-    font-weight: 400;
-    font-size: 12px;
     color: #E49700;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 .ingrediente{
-    width: 23rem;
-    display: flex ;
     align-items: center;
+    display: flex ;
     height: 5.5rem;
     justify-content: space-between;
     padding-right: 1rem;
     padding-left: 1rem;
+    width: 23rem;
 }
 
 .valor__ingrediente{
@@ -63,30 +63,30 @@
 .linha__horizontal{
    border-bottom: 1px solid #E8A634;
    display: flex;
-   width: 24rem;
    margin-left: 1rem;
+   width: 24rem;
 }
 
 .ingrediente__name{
+    color: #4E4E4E;
     font-weight: 500;
     font-size: 14px;
-    color: #4E4E4E;
 }
 
 .ingrediente_value{
+    color: #F09035;
     font-weight: 500;
     font-size: 14px;
-    color: #F09035;
 }
 
 .adicao__ingrediente {
-    display: flex;
-    width: 5.5rem;
-    height: 2rem;
+    align-items: center;
     border: 1px solid #F09035;
     border-radius: 5px;
-    align-items: center;
+    display: flex;
+    height: 2rem;
     justify-content: space-around;
+    width: 5.5rem;
 }
 
 .adicao__ingrediente p {
@@ -94,30 +94,30 @@
 }
 
 .talher{
-    display: flex;
     align-items: center;
-    width: 23rem;
-    height: 3.1rem;
     background-color: rgba(253, 215, 14, 0.2);
+    display: flex;
+    height: 3.1rem;
     margin-top: 1rem;
     padding-left: 1rem;
+    width: 23rem;
 }
 
 .talher p{
+    color: #4E4E4E;
     font-weight: 500;
     size: 14px;
-    color: #4E4E4E;
 }
 
 .diminuir__talher{
-    width: 30px;
-    height: 20px;
-    display: flex;
     align-items: center;
-    justify-content: center;
     border: none;
     background-color: white;
     border-radius: 4px;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    width: 30px;
 }
 
 .diminuir__talher:hover{
@@ -131,35 +131,60 @@
 }
 
 .adicionar{
-    width: 13.6rem;
-    height: 2.5rem;
-    background-color: #F09035;
-    color: white;
     border: none;
     border-radius: 4px;
+    background-color: #F09035;
+    color: white;
+    height: 2.5rem;
     margin-left: 25px;
+    width: 13.6rem;
 }
 
 .adicionar:hover{
     background-color: #ff7b00;
 }
 .adicao__talher{
-    display: flex;
-    width: 8.7rem;
-    height: 2.5rem;
     align-items: center;
     border: 1px solid #F09035;
     border-radius: 5px;
+    display: flex;
+    height: 2.5rem;
     justify-content: space-around;
+    width: 8.7rem;
 }
 
 .sinalMenos{
-    width: 14px;
     height: 2px;
+    width: 14px;
 }
 
 .sinalMais{
-    width: 14px;
-    height: 14px;
     align-items: center;
+    height: 14px;
+    width: 14px;
+}
+
+@media (max-width: 375px){
+    .borda__ingredientes{
+        border: none;
+        width: 70vw;
+    }
+
+    .adicionar__ingrediente{
+        width: 60vw;
+    }
+    .ingrediente{
+        width: 60vw;
+    }
+    .linha__horizontal{
+        width: 60vw;
+    }
+
+    .talher{
+        width: 60vw;
+    }
+
+    .container__talher{
+        width: 60vw;
+    }
 }

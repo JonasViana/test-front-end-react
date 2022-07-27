@@ -1,5 +1,23 @@
 .App{
+  align-items: center;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  height: 88vh;
+  width: 100vw;
+}
+
+@media (max-width: 375px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    height: 166vh;
+  }
+}
+
+@media (max-width: 999px){
+  .App{
+    display: flex;
+    flex-direction: column;
+    height: 190vh;
+  }
 }

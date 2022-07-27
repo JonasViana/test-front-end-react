@@ -3,35 +3,39 @@ p{
 }
 
 .header{
-    display: flex;
-    height: 12vh;
-    background-color: #F4F4F4;
     align-items: center;
-    justify-content: space-evenly;
+    background-color: #F4F4F4;
+    display: flex;
     font-family: 'roboto';
+    height: 12vh;
+    justify-content: space-evenly;
+}
+
+.header a {
+    text-decoration: none;
 }
 
 .logo1{
-    width: 5.1rem;
     height: 3rem;
     margin-right: 0;
+    width: 5.1rem;
 }
 
 .logo2{
-    width: 9.3rem;
     height: 2.6rem;
     margin-left: 0;
+    width: 9.3rem;
 }
 
 input{
-    width: 22rem;
-    height: 3rem;
     background-color: white;
     border-radius: 4px;
-    margin-left: 8rem;
     display: flex;
+    height: 3rem;
+    margin-left: 8rem;
     padding-left: 1rem;
     margin-left: 0;
+    width: 22rem;
 }
 
 input:focus{
@@ -43,8 +47,8 @@ input:active, input:focus{
 }
 
 .user{
-    display: flex;
     align-items: center;
+    display: flex;
 }
 
 .user p{
@@ -52,11 +56,34 @@ input:active, input:focus{
 }
 
 .carrinho{
-    display: flex;
     align-items: center;
-
+    display: flex;
 }
 
 .carrinho p{
     margin: 0;
+}
+
+@media (max-width: 375px){
+
+    .header{
+        height: 15vh;
+    }
+    input{
+        display: none;
+    }
+
+    .user{
+        display: none;
+    }
+
+    .carrinho{
+        display: none;
+    }
+}
+
+@media (max-width: 999px){
+    input{
+        display: none;
+    }
 }
